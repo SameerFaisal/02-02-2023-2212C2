@@ -1,0 +1,72 @@
+/* #qu{
+    border: 5px groove greenyellow;
+    border-radius: 550px;
+}
+#head{
+text-align: center;
+/* background-color: greenyellow; */
+/* color: white; */
+/* text-decoration: underline;
+border: 2px solid olive;
+border-radius: 30px;
+} */
+/* #para6{
+    background-color: grey;
+    color: white;
+    text-indent: 30px;
+}  */
+body{
+    /* background-color: hotpink; */
+    /* background-image: url("./quaid.jpg");
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+   
+}
+/* #box{
+    height: 407px;
+    width: 612px;
+    border: 2px solid black;
+    background-image: url("https://media2.giphy.com/media/D4zbzXKSl9tOE/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 400%;
+
+} */
+
+/* img{
+    opacity: 0.5;
+}
+p{
+    text-align: center;
+} */
+#one{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 5px groove gray;
+    transition: width 3s;
+    transition-timing-function:linear;
+transition-delay:1s;
+
+-moz-transition: width 3s; /* Firefox 4 */
+-webkit-transition: width 3s; /* Safari and Chrome */
+-o-transition: width 3s; /* Opera */
+
+}
+#one:hover
+{
+width:200px;
+}
+
+#two{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 5px groove gray;
+}
+#three{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    border: 5px groove gray;
+}

@@ -1,0 +1,103 @@
+/* div
+{
+width:100px;
+height:100px;
+background:#000000;
+transition-property:width;
+transition-duration:2s;
+/* transition-timing-function: steps(10); */
+/* transition-delay:2s; */
+
+
+/* }
+div:hover
+{
+width:500px;
+background-color: blueviolet;
+}  */
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:relative;
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state:running;
+
+} */
+
+/* @keyframes myAnimation{
+from {background: red;}
+to {background: yellow;}
+} */
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:relative;
+    animation-name: animation2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-play-state:running;
+
+} */
+
+
+/* p{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:relative;
+    animation-name: animation2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-play-state:running;
+
+} */
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:relative;
+    /* border-radius: 150px; */
+    color: white;
+    text-align: center;
+    
+    animation-name: animation2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-play-state:running;
+
+}
+#text{
+    padding-top: 40px;
+}
+@keyframes animation2{
+    
+        0% {background:red; left:0px; top:0px; color: yellowgreen;}
+        25% {background:yellow; left:200px; top:0px; color: black;}
+        50% {background:blue; left:200px; top:200px; color: crimson;}
+        75% {background:green; left:0px; top:200px; color: darkgrey;}
+        100% {background:red; left:0px; top:0px; color: darkmagenta;}
+        
+}
+
